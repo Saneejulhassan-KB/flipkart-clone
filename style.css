@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    
+
+}
+
+.login-button {
+    color: black;
+    font-size: 16px;
+}
+
+.login-button:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.settings-button {
+    color: black;
+    font-size: 16px;
+}
+
+.settings-button:hover {
+    background-color:#f1f2f4;
+    
+    border-radius: 10px;
+    width: 40px;
+}
+
+
+
+
+#carouselExampleAutoplaying {
+    position: relative;
+    margin: 20px 150px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    margin: 0;
+  }
+
+  .carousel-control-prev {
+    left: 0;
+  }
+
+  .carousel-control-next {
+    right: 0;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgb(102, 98, 98);
+    padding-bottom: 70px;
+    color: #ffffff;
+    
+  }
+
+  .carousel-control-prev-icon{
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+
+  .carousel-control-next-icon{
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+  }
+
+
+  .item-container{
+    background-color: white;
+    height: 380px;
+    margin: 20px 150px;
+  }
+
+  .card-body .amount{
+    margin-top: -15px;
+  }
+  .card-body .heading{
+    margin-top: 10px;
+  }
+
+  .item-card img{
+    transition: transform 0.04s ease-in-out;
+  }
+
+  .item-card img:hover{
+    transform: scale(1.1);
+  }
+
+  .offer-container{
+    background-color: white;
+    height: 640px;
+    width: 480px;
+    margin: 0px 150px;
+  }
+
+  .offer-card img{
+    transition: transform 0.04s ease-in-out;
+  }
+
+  .offer-card img:hover{
+    transform: scale(1.1);
+  }
+
+  .image-container{
+    background-color: white;
+    height: 640px;
+    width: 480px;
+    margin: 0px 150px;
+  }
